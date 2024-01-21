@@ -33,6 +33,7 @@ $(function () {
       } else {
         $(this).removeClass("past");
         $(this).removeClass("present");
+        $(this).addClass("future");
       }
     });
   }
